@@ -53,4 +53,4 @@ Run all cells of main.ipynb to spawn the demo. Prompts, desired confidence thres
 
 
 # Acknowledgements
-The underlying model SAM3 was created by Meta. This script is a modification of their example script "/sam3/examples/sam3_image_interactive.ipynb" which uses HuggingFace's transformer library instead of referencing the repo 
+The underlying model SAM3 was created by Meta. This script is a modification of their example script "/sam3/examples/sam3_image_interactive.ipynb" which uses HuggingFace's transformer library instead of referencing the repo and changes some of the functionality of the widget.
