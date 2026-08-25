@@ -25,11 +25,11 @@ uv synch
 
 After syncing, install pytorch with automatic version detection using
 ```
-uv pip install torch --torch-backend=auto
+uv pip install torch torchvision --torch-backend=auto
 ```
 To select a specific version instead, use
 ```
-uv pip install torch --torch-backend=cu130
+uv pip install torch torchvision --torch-backend=cu130
 ```
 where "cu130" is for CUDA v13.0, as an example.
 
