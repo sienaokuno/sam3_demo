@@ -1,7 +1,7 @@
 # SAM3 Demo
 An interactive demo of SAM3, which performs promptable concept segmentation using text prompts and bounding boxes. This demo can be run within a jupyter notebook. It is recommended but not required to use a GPU.
 
-- Input image: can use a local file or URL to locate an image online. For now, only one image can be run at a time. Image embeddings are stored and reused with new prompts to prevent extra computation.
+- Input image: can use a local file or URL to locate an image online. Only one image can be run at a time. Image embeddings are stored and reused with new prompts to prevent extra computation.
 - Text prompts: a descriptive noun phrase for what the model should segment
 - Bounding boxes: a box draw onto the image. This can be a positive or negative example
 
