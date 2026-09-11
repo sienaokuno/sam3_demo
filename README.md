@@ -4,6 +4,9 @@ An interactive demo of SAM3, which performs promptable concept segmentation usin
 - Input image: can use a local file or URL to locate an image online. Only one image can be run at a time. Image embeddings are stored and reused with new prompts to prevent extra computation.
 - Text prompts: a descriptive noun phrase for what the model should segment
 - Bounding boxes: a box draw onto the image. This can be a positive or negative example
+- Object-ness confidence: the confidence threshold for determining background from foreground
+- Mask confidence: the confidence threshold for pixels corresponding to the prompt
+- Save semantic mask: stores the currently displayed results as a binary mask (instances are NOT separated!) of the same size as the input image
 
 # Install
 
@@ -20,7 +23,7 @@ While not required, uv is a useful package manager that enables fast setup. See 
 
 First, sync most of the packages by running
 ```
-uv synch
+uv sync
 ```
 
 After syncing, install pytorch with automatic version detection using
